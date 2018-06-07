@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LiveTemplates", "LiveTemplates", "{557D189A-218B-4F4F-89F0-D8FC02B44126}"
+	ProjectSection(SolutionItems) = preProject
+		LiveTemplates\markdown.DotSettings = LiveTemplates\markdown.DotSettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{4A09F60F-3F80-45E7-8FD3-C988CF3A8857}"
+	ProjectSection(SolutionItems) = preProject
+		LiveTemplates\CSharp\log4net.DotSettings = LiveTemplates\CSharp\log4net.DotSettings
+		LiveTemplates\CSharp\override.DotSettings = LiveTemplates\CSharp\override.DotSettings
+		LiveTemplates\CSharp\overrideequals-xunit.DotSettings = LiveTemplates\CSharp\overrideequals-xunit.DotSettings
+		LiveTemplates\CSharp\simplefactory.DotSettings = LiveTemplates\CSharp\simplefactory.DotSettings
+		LiveTemplates\CSharp\testbuilder.DotSettings = LiveTemplates\CSharp\testbuilder.DotSettings
+		LiveTemplates\CSharp\tostring.DotSettings = LiveTemplates\CSharp\tostring.DotSettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{2C8063A4-6A49-4B4A-98B1-93B26EB5FAA7}"
+	ProjectSection(SolutionItems) = preProject
+		LiveTemplates\CSharp\UnitTesting\mstest.DotSettings = LiveTemplates\CSharp\UnitTesting\mstest.DotSettings
+		LiveTemplates\CSharp\UnitTesting\nunit.DotSettings = LiveTemplates\CSharp\UnitTesting\nunit.DotSettings
+		LiveTemplates\CSharp\specflow.DotSettings = LiveTemplates\CSharp\specflow.DotSettings
+		LiveTemplates\CSharp\UnitTesting\xunit.DotSettings = LiveTemplates\CSharp\UnitTesting\xunit.DotSettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FileTemplates", "FileTemplates", "{F6D2146E-E84D-41A2-A40B-1498CEC55A0B}"
+	ProjectSection(SolutionItems) = preProject
+		FileTemplates\jsonfile.DotSettings = FileTemplates\jsonfile.DotSettings
+		FileTemplates\markdownfile.DotSettings = FileTemplates\markdownfile.DotSettings
+		FileTemplates\textfile.DotSettings = FileTemplates\textfile.DotSettings
+		FileTemplates\xmlfile.DotSettings = FileTemplates\xmlfile.DotSettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{68066348-7550-48D1-92E5-4B39B66BE04E}"
+	ProjectSection(SolutionItems) = preProject
+		FileTemplates\CSharp\exception.DotSettings = FileTemplates\CSharp\exception.DotSettings
+		FileTemplates\CSharp\nunitclass.DotSettings = FileTemplates\CSharp\nunitclass.DotSettings
+		FileTemplates\CSharp\simplefactory.DotSettings = FileTemplates\CSharp\simplefactory.DotSettings
+		FileTemplates\CSharp\testbuilder.DotSettings = FileTemplates\CSharp\testbuilder.DotSettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Powershell", "Powershell", "{C430089A-03FE-4CCD-802E-957B67C151FE}"
+	ProjectSection(SolutionItems) = preProject
+		FileTemplates\Powershell\powershellscript.DotSettings = FileTemplates\Powershell\powershellscript.DotSettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{353E3CD2-75CA-41DB-B982-26D036025B60}"
+	ProjectSection(SolutionItems) = preProject
+		..\readme.md = ..\readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A09F60F-3F80-45E7-8FD3-C988CF3A8857} = {557D189A-218B-4F4F-89F0-D8FC02B44126}
+		{2C8063A4-6A49-4B4A-98B1-93B26EB5FAA7} = {4A09F60F-3F80-45E7-8FD3-C988CF3A8857}
+		{68066348-7550-48D1-92E5-4B39B66BE04E} = {F6D2146E-E84D-41A2-A40B-1498CEC55A0B}
+		{C430089A-03FE-4CCD-802E-957B67C151FE} = {F6D2146E-E84D-41A2-A40B-1498CEC55A0B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21935666-E45C-4886-ACC6-630D1949B684}
+	EndGlobalSection
+EndGlobal
