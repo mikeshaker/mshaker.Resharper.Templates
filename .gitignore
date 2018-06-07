@@ -1,5 +1,5 @@
 git-reinit.bat
-git-reinit-bitbucket.bat
+git-reinit-github.bat
 
 #OS junk files
 [Tt]humbs.db
