@@ -23,7 +23,10 @@ The repo can be cloned from git bash:&#xD;
 &#xD;
 ## Usage&#xD;
 &#xD;
-$CORE_CLASSES_DESCRIPTION$</s:String>
+```&#xD;
+$CODE_EXAMPLES$&#xD;
+```&#xD;
+$END$</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Reformat/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/CustomProperties/=FileName/@EntryIndexedValue">README</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/CustomProperties/=Extension/@EntryIndexedValue">md</s:String>
@@ -36,7 +39,7 @@ $CORE_CLASSES_DESCRIPTION$</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=PROJECT_005FNAME/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=OVERVIEW/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=OVERVIEW/Order/@EntryValue">1</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=CORE_005FCLASSES_005FDESCRIPTION/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=CORE_005FCLASSES_005FDESCRIPTION/Order/@EntryValue">2</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=GITHUB_005FUSER/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=GITHUB_005FUSER/Order/@EntryValue">3</s:Int64></wpf:ResourceDictionary>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=GITHUB_005FUSER/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=CODE_005FEXAMPLES/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=548CB98E14AB5A4A927D705517B3238D/Field/=CODE_005FEXAMPLES/Order/@EntryValue">3</s:Int64></wpf:ResourceDictionary>
