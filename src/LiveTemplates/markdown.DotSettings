@@ -1,17 +1,17 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Shortcut/@EntryValue">em-italics</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Description/@EntryValue">Emphasis italics</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Text/@EntryValue">*$TEXT$*$END$</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Reformat/@EntryValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Categories/=Markdown/@EntryIndexedValue">Markdown</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.md</s:String>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Field/=TEXT/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Field/=TEXT/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Shortcut/@EntryValue">badge-nuget</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Description/@EntryValue">Nuget Badge</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Text/@EntryValue">[![NuGet Package](https://img.shields.io/nuget/v/$PACKAGE_NAME$.svg)](https://www.nuget.org/packages/$PACKAGE_NAME$)</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Categories/=Markdown/@EntryIndexedValue">Markdown</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.md</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Field/=PACKAGE_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Field/=PACKAGE_005FNAME/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7DFC6113954C1345A16214060E8563FD/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7DFC6113954C1345A16214060E8563FD/Shortcut/@EntryValue">code-block</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7DFC6113954C1345A16214060E8563FD/Description/@EntryValue">Code block</s:String>
@@ -51,6 +51,19 @@ $END$&#xD;
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEA248FCFA6458439E8881FAAFD007E4/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.md</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEA248FCFA6458439E8881FAAFD007E4/Field/=TEXT/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=AEA248FCFA6458439E8881FAAFD007E4/Field/=TEXT/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Shortcut/@EntryValue">em-italics</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Description/@EntryValue">Emphasis italics</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Text/@EntryValue">*$TEXT$*$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Categories/=Markdown/@EntryIndexedValue">Markdown</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.md</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Field/=TEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=3ED59A9C4174F9428BB71777C381D3F8/Field/=TEXT/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F16B10E68FA9E4BA935D0CC97609CE9/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F16B10E68FA9E4BA935D0CC97609CE9/Shortcut/@EntryValue">em-strike</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F16B10E68FA9E4BA935D0CC97609CE9/Description/@EntryValue">Emphasis strikethrough</s:String>
