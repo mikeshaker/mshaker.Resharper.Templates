@@ -1,7 +1,22 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Shortcut/@EntryValue">badge-build</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Description/@EntryValue">Build badge (AppVeyor)</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Text/@EntryValue">[![Build status](https://ci.appveyor.com/api/projects/status/github/$USER_NAME$/$REPO_NAME$?branch=master&amp;svg=true)](https://ci.appveyor.com/project/$USER_NAME$/$REPO_NAME$/branch/master)</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Categories/=Markdown/@EntryIndexedValue">Markdown</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.md</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Field/=USER_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Field/=USER_005FNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Field/=REPO_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Field/=REPO_005FNAME/Order/@EntryValue">1</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Shortcut/@EntryValue">badge-nuget</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Description/@EntryValue">Nuget Badge</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Description/@EntryValue">Nuget Badge (Shields IO)</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Text/@EntryValue">[![NuGet Package](https://img.shields.io/nuget/v/$PACKAGE_NAME$.svg)](https://www.nuget.org/packages/$PACKAGE_NAME$)</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
