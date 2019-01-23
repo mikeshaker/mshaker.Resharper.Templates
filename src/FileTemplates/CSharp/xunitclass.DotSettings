@@ -7,12 +7,7 @@ namespace $nameSpace$
 {&#xD;
 	public class $className$&#xD;
 	{&#xD;
-		private $classUnderTestType$ _sut;&#xD;
-&#xD;
-		public $className$()&#xD;
-		{&#xD;
-			_sut = new $classUnderTestType$($END$);&#xD;
-		}&#xD;
+		$END$&#xD;
 	}&#xD;
 }</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=49E1D689F41E1A4F9FCC962A1519DA7D/Reformat/@EntryValue">True</s:Boolean>
@@ -30,6 +25,4 @@ namespace $nameSpace$
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=49E1D689F41E1A4F9FCC962A1519DA7D/Field/=className/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=49E1D689F41E1A4F9FCC962A1519DA7D/Field/=className/Expression/@EntryValue">getFileNameWithoutExtension()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=49E1D689F41E1A4F9FCC962A1519DA7D/Field/=className/InitialRange/@EntryValue">-1</s:Int64>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=49E1D689F41E1A4F9FCC962A1519DA7D/Field/=className/Order/@EntryValue">1</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=49E1D689F41E1A4F9FCC962A1519DA7D/Field/=classUnderTestType/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=49E1D689F41E1A4F9FCC962A1519DA7D/Field/=classUnderTestType/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=49E1D689F41E1A4F9FCC962A1519DA7D/Field/=className/Order/@EntryValue">1</s:Int64></wpf:ResourceDictionary>
