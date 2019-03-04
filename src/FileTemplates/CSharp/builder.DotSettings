@@ -1,6 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F90544673E0D1042A693F00280BA271F/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F90544673E0D1042A693F00280BA271F/Description/@EntryValue">TestBuilder Class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F90544673E0D1042A693F00280BA271F/Description/@EntryValue">Builder Class</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F90544673E0D1042A693F00280BA271F/Text/@EntryValue">namespace $nameSpace$&#xD;
 {&#xD;
 	public class $class$ : Builder&lt;$class$, $entityName$&gt;&#xD;
@@ -39,7 +39,7 @@
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F90544673E0D1042A693F00280BA271F/Field/=entityName/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=F90544673E0D1042A693F00280BA271F/Field/=entityName/Order/@EntryValue">2</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=589D489BCABC08429894793D32C0E6BC/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=589D489BCABC08429894793D32C0E6BC/Description/@EntryValue">TestBuilder Base Class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=589D489BCABC08429894793D32C0E6BC/Description/@EntryValue">Builder Base Class</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=589D489BCABC08429894793D32C0E6BC/Text/@EntryValue">namespace $nameSpace$&#xD;
 {&#xD;
     public abstract class Builder&lt;TBuilder, TItem&gt; where TBuilder : Builder&lt;TBuilder, TItem&gt;&#xD;

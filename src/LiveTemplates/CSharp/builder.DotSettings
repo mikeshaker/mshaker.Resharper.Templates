@@ -1,12 +1,12 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54FD673397DA834692E3F681D9B91EE8/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54FD673397DA834692E3F681D9B91EE8/Shortcut/@EntryValue">testbuilder</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54FD673397DA834692E3F681D9B91EE8/Description/@EntryValue">Test builder class</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54FD673397DA834692E3F681D9B91EE8/Text/@EntryValue">public class $entityName$TestBuilder : Builder&lt;$entityName$TestBuilder, $entityName$&gt;&#xD;
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54FD673397DA834692E3F681D9B91EE8/Shortcut/@EntryValue">builder</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54FD673397DA834692E3F681D9B91EE8/Description/@EntryValue">Builder class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54FD673397DA834692E3F681D9B91EE8/Text/@EntryValue">public class $entityName$Builder : Builder&lt;$entityName$Builder, $entityName$&gt;&#xD;
 {&#xD;
-    public static $entityName$TestBuilder InMemory =&gt; new $entityName$TestBuilder();&#xD;
+    public static $entityName$Builder InMemory =&gt; new $entityName$Builder();&#xD;
     &#xD;
-	public $entityName$TestBuilder()&#xD;
+	public $entityName$Builder()&#xD;
 	{&#xD;
 	}&#xD;
 &#xD;
@@ -27,8 +27,8 @@
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54FD673397DA834692E3F681D9B91EE8/Field/=entityName/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=54FD673397DA834692E3F681D9B91EE8/Field/=entityName/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6B83F4B9B7CA34DA06B7A8EB193C7D2/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6B83F4B9B7CA34DA06B7A8EB193C7D2/Shortcut/@EntryValue">testbuilderas</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6B83F4B9B7CA34DA06B7A8EB193C7D2/Description/@EntryValue">Test builder As method</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6B83F4B9B7CA34DA06B7A8EB193C7D2/Shortcut/@EntryValue">builderas</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6B83F4B9B7CA34DA06B7A8EB193C7D2/Description/@EntryValue">Builder As method</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6B83F4B9B7CA34DA06B7A8EB193C7D2/Text/@EntryValue">public $containerClass$ As$description$()&#xD;
 {&#xD;
 	return With(entity =&gt; entity.$property$ = $value$);&#xD;
@@ -51,8 +51,8 @@
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6B83F4B9B7CA34DA06B7A8EB193C7D2/Field/=value/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=E6B83F4B9B7CA34DA06B7A8EB193C7D2/Field/=value/Order/@EntryValue">3</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB85A59AC2967644A276E1E36AE000EB/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB85A59AC2967644A276E1E36AE000EB/Shortcut/@EntryValue">testbuilderbase</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB85A59AC2967644A276E1E36AE000EB/Description/@EntryValue">Test builder base class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB85A59AC2967644A276E1E36AE000EB/Shortcut/@EntryValue">builderbase</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB85A59AC2967644A276E1E36AE000EB/Description/@EntryValue">builder base class</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB85A59AC2967644A276E1E36AE000EB/Text/@EntryValue">    public abstract class Builder&lt;TBuilder, TItem&gt; where TBuilder : Builder&lt;TBuilder, TItem&gt;&#xD;
     {&#xD;
         private readonly List&lt;Action&lt;TItem&gt;&gt; _mutations = new List&lt;Action&lt;TItem&gt;&gt;();&#xD;
@@ -94,9 +94,9 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB85A59AC2967644A276E1E36AE000EB/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CB85A59AC2967644A276E1E36AE000EB/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE533F6B083D8348919AD9D460E57FBF/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE533F6B083D8348919AD9D460E57FBF/Shortcut/@EntryValue">testbuilderdb</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE533F6B083D8348919AD9D460E57FBF/Description/@EntryValue">Test builder DB class</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE533F6B083D8348919AD9D460E57FBF/Text/@EntryValue">public class Db$entityName$TestBuilder : $entityName$TestBuilder&#xD;
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE533F6B083D8348919AD9D460E57FBF/Shortcut/@EntryValue">builderdb</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE533F6B083D8348919AD9D460E57FBF/Description/@EntryValue">builder DB class</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE533F6B083D8348919AD9D460E57FBF/Text/@EntryValue">public class Db$entityName$Builder : $entityName$Builder&#xD;
 {&#xD;
     public override $entityName$ Build()&#xD;
     {&#xD;
@@ -117,8 +117,8 @@
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE533F6B083D8348919AD9D460E57FBF/Field/=entityName/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FE533F6B083D8348919AD9D460E57FBF/Field/=entityName/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C01184222B580449B6A2FCC63C32C98E/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C01184222B580449B6A2FCC63C32C98E/Shortcut/@EntryValue">testbuilderindb</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C01184222B580449B6A2FCC63C32C98E/Description/@EntryValue">Test builder InDatabase method</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C01184222B580449B6A2FCC63C32C98E/Shortcut/@EntryValue">builderindb</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C01184222B580449B6A2FCC63C32C98E/Description/@EntryValue">builder InDatabase method</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C01184222B580449B6A2FCC63C32C98E/Text/@EntryValue">public static $containerClass$ InDatabase =&gt; new Db$containerClass$();</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C01184222B580449B6A2FCC63C32C98E/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C01184222B580449B6A2FCC63C32C98E/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
@@ -131,8 +131,8 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C01184222B580449B6A2FCC63C32C98E/Field/=containerClass/Expression/@EntryValue">typeName()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C01184222B580449B6A2FCC63C32C98E/Field/=containerClass/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Shortcut/@EntryValue">testbuilderwith</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Description/@EntryValue">Test builder With method</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Shortcut/@EntryValue">builderwith</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Description/@EntryValue">builder With method</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Text/@EntryValue">public $containerClass$ With($dataType$ $param$)&#xD;
 {&#xD;
 	return With(entity =&gt; entity.$property$ = $param$);&#xD;
@@ -151,15 +151,15 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Field/=containerClass/Expression/@EntryValue">typeName()</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Field/=containerClass/InitialRange/@EntryValue">-1</s:Int64>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Field/=containerClass/Order/@EntryValue">1</s:Int64>
-	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Field/=property/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Field/=property/Order/@EntryValue">2</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Field/=param/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Field/=param/Expression/@EntryValue">decapitalize(dataType)</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Field/=param/InitialRange/@EntryValue">-1</s:Int64>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Field/=param/Order/@EntryValue">3</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Field/=param/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Field/=property/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=BE4CA8669D3E4B4980B567D15D93D18F/Field/=property/Order/@EntryValue">3</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=573B4DF9FE80364E81B023E2EA491A36/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=573B4DF9FE80364E81B023E2EA491A36/Shortcut/@EntryValue">testbuilderwithname</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=573B4DF9FE80364E81B023E2EA491A36/Description/@EntryValue">Test builder With&lt;name&gt; method</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=573B4DF9FE80364E81B023E2EA491A36/Shortcut/@EntryValue">builderwithname</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=573B4DF9FE80364E81B023E2EA491A36/Description/@EntryValue">builder With&lt;name&gt; method</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=573B4DF9FE80364E81B023E2EA491A36/Text/@EntryValue">public $containerClass$ With$name$($dataType$ $varName$)&#xD;
 {&#xD;
 	return With(entity =&gt; entity.$name$ = $varName$);&#xD;
