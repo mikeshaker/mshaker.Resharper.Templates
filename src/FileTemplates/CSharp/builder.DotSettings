@@ -57,7 +57,7 @@
             return item;&#xD;
         }&#xD;
 &#xD;
-        public TBuilder With(Action&lt;TItem&gt; mutation)&#xD;
+        protected TBuilder With(Action&lt;TItem&gt; mutation)&#xD;
         {&#xD;
             _mutations.Add(mutation);&#xD;
             return this as TBuilder;&#xD;
