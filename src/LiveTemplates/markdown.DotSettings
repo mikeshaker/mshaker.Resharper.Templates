@@ -108,7 +108,7 @@ $END$</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8015AF056B4649A3A9EB8BD72752C3/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8015AF056B4649A3A9EB8BD72752C3/Shortcut/@EntryValue">image-inline</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8015AF056B4649A3A9EB8BD72752C3/Description/@EntryValue">Image inline</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8015AF056B4649A3A9EB8BD72752C3/Text/@EntryValue">![alt text]($URL$ "$ALT_TEXT$")$END$</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8015AF056B4649A3A9EB8BD72752C3/Text/@EntryValue">![$ALT_TEXT$]($URL$)$END$</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8015AF056B4649A3A9EB8BD72752C3/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8015AF056B4649A3A9EB8BD72752C3/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8015AF056B4649A3A9EB8BD72752C3/Categories/=Markdown/@EntryIndexedValue">Markdown</s:String>
@@ -120,12 +120,35 @@ $END$</s:String>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8015AF056B4649A3A9EB8BD72752C3/Field/=URL/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8015AF056B4649A3A9EB8BD72752C3/Field/=ALT_005FTEXT/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9F8015AF056B4649A3A9EB8BD72752C3/Field/=ALT_005FTEXT/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Shortcut/@EntryValue">image-inline-gh</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Description/@EntryValue">Image inline from GitHub</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Text/@EntryValue">![$ALT_TEXT$](https://raw.githubusercontent.com/$GH_ACCOUNT$/$GH_REPO$/$BRANCH$/$FILE_PATH$)$END$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Categories/=Markdown/@EntryIndexedValue">Markdown</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.md</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Field/=ALT_005FTEXT/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Field/=ALT_005FTEXT/Expression/@EntryValue">constant("")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Field/=ALT_005FTEXT/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Field/=GH_005FACCOUNT/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Field/=GH_005FACCOUNT/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Field/=GH_005FREPO/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Field/=GH_005FREPO/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Field/=BRANCH/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Field/=BRANCH/Expression/@EntryValue">constant("master")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Field/=BRANCH/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Field/=FILE_005FPATH/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=FA017F4261FF87409713F2C8D66D243D/Field/=FILE_005FPATH/Order/@EntryValue">4</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CA0390A0E590894C9C0AFA0C33C93273/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CA0390A0E590894C9C0AFA0C33C93273/Shortcut/@EntryValue">image-ref</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CA0390A0E590894C9C0AFA0C33C93273/Description/@EntryValue">Image as reference</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CA0390A0E590894C9C0AFA0C33C93273/Text/@EntryValue">[$REF_NAME$]: $URL$ "$ALT_TEXT$"&#xD;
 &#xD;
-![alt text][$REF_NAME$]$END$</s:String>
+![$ALT_TEXT$][$REF_NAME$]$END$</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CA0390A0E590894C9C0AFA0C33C93273/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CA0390A0E590894C9C0AFA0C33C93273/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=CA0390A0E590894C9C0AFA0C33C93273/Categories/=Markdown/@EntryIndexedValue">Markdown</s:String>
