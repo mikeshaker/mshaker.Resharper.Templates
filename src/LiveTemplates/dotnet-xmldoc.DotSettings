@@ -31,6 +31,44 @@
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D6F771C09468C542B059D5CC3F6BCF4C/Field/=EXCEPTION_005FTYPE/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D6F771C09468C542B059D5CC3F6BCF4C/Field/=DESCRIPTION/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=D6F771C09468C542B059D5CC3F6BCF4C/Field/=DESCRIPTION/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CD7B266F61EA04488A0F38876C95271/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CD7B266F61EA04488A0F38876C95271/Shortcut/@EntryValue">xmldoc-ex-arg</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CD7B266F61EA04488A0F38876C95271/Description/@EntryValue">ArgumentException thrown within method</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CD7B266F61EA04488A0F38876C95271/Text/@EntryValue">&lt;exception cref="T:System.ArgumentException"&gt;&lt;paramref name="$PARAM_NAME$" /&gt;$DESCRIPTION$&lt;/exception&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CD7B266F61EA04488A0F38876C95271/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CD7B266F61EA04488A0F38876C95271/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CD7B266F61EA04488A0F38876C95271/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CD7B266F61EA04488A0F38876C95271/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CD7B266F61EA04488A0F38876C95271/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CD7B266F61EA04488A0F38876C95271/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CD7B266F61EA04488A0F38876C95271/Field/=DESCRIPTION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CD7B266F61EA04488A0F38876C95271/Field/=DESCRIPTION/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CD7B266F61EA04488A0F38876C95271/Field/=PARAM_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=2CD7B266F61EA04488A0F38876C95271/Field/=PARAM_005FNAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0C2AB28FAB0F2848AC9DE9F99790AF53/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0C2AB28FAB0F2848AC9DE9F99790AF53/Shortcut/@EntryValue">xmldoc-ex-arg-null</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0C2AB28FAB0F2848AC9DE9F99790AF53/Description/@EntryValue">ArgumentNullException thrown within method</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0C2AB28FAB0F2848AC9DE9F99790AF53/Text/@EntryValue">&lt;exception cref="T:System.ArgumentNullException"&gt;&lt;paramref name="$PARAM_NAME$" /&gt; is null.&lt;/exception&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0C2AB28FAB0F2848AC9DE9F99790AF53/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0C2AB28FAB0F2848AC9DE9F99790AF53/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0C2AB28FAB0F2848AC9DE9F99790AF53/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0C2AB28FAB0F2848AC9DE9F99790AF53/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0C2AB28FAB0F2848AC9DE9F99790AF53/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0C2AB28FAB0F2848AC9DE9F99790AF53/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0C2AB28FAB0F2848AC9DE9F99790AF53/Field/=PARAM_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=0C2AB28FAB0F2848AC9DE9F99790AF53/Field/=PARAM_005FNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B4AE6F597D062E41AA76F4319D3CFF86/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B4AE6F597D062E41AA76F4319D3CFF86/Shortcut/@EntryValue">xmldoc-ex-arg-nullorempty</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B4AE6F597D062E41AA76F4319D3CFF86/Description/@EntryValue">ArgumentException thrown within method</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B4AE6F597D062E41AA76F4319D3CFF86/Text/@EntryValue">&lt;exception cref="T:System.ArgumentException"&gt;&lt;paramref name="$PARAM_NAME$" /&gt; is null or empty.&lt;/exception&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B4AE6F597D062E41AA76F4319D3CFF86/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B4AE6F597D062E41AA76F4319D3CFF86/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B4AE6F597D062E41AA76F4319D3CFF86/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B4AE6F597D062E41AA76F4319D3CFF86/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B4AE6F597D062E41AA76F4319D3CFF86/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B4AE6F597D062E41AA76F4319D3CFF86/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B4AE6F597D062E41AA76F4319D3CFF86/Field/=PARAM_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=B4AE6F597D062E41AA76F4319D3CFF86/Field/=PARAM_005FNAME/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1392F7666AE5AF4981751992565C962F/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1392F7666AE5AF4981751992565C962F/Shortcut/@EntryValue">xmldoc-example</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1392F7666AE5AF4981751992565C962F/Description/@EntryValue">Example with code</s:String>
