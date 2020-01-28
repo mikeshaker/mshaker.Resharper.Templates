@@ -186,6 +186,20 @@
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C441C270F025FC4494C4CA278B47205B/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C441C270F025FC4494C4CA278B47205B/Field/=TEXT/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C441C270F025FC4494C4CA278B47205B/Field/=TEXT/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C0A39DE0CD2FAF4199488E91EB98BE83/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C0A39DE0CD2FAF4199488E91EB98BE83/Shortcut/@EntryValue">xmldoc-response-code</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C0A39DE0CD2FAF4199488E91EB98BE83/Description/@EntryValue">Returned HTTP response code</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C0A39DE0CD2FAF4199488E91EB98BE83/Text/@EntryValue">&lt;response code="$RESPONSE_CODE$"&gt;$DESCRIPTION$&lt;/response&gt;</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C0A39DE0CD2FAF4199488E91EB98BE83/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C0A39DE0CD2FAF4199488E91EB98BE83/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C0A39DE0CD2FAF4199488E91EB98BE83/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C0A39DE0CD2FAF4199488E91EB98BE83/Scope/=C3001E7C0DA78E4487072B7E050D86C5/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C0A39DE0CD2FAF4199488E91EB98BE83/Scope/=C3001E7C0DA78E4487072B7E050D86C5/Type/@EntryValue">InCSharpFile</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C0A39DE0CD2FAF4199488E91EB98BE83/Scope/=C3001E7C0DA78E4487072B7E050D86C5/CustomProperties/=minimumLanguageVersion/@EntryIndexedValue">2.0</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C0A39DE0CD2FAF4199488E91EB98BE83/Field/=RESPONSE_005FCODE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C0A39DE0CD2FAF4199488E91EB98BE83/Field/=RESPONSE_005FCODE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C0A39DE0CD2FAF4199488E91EB98BE83/Field/=DESCRIPTION/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C0A39DE0CD2FAF4199488E91EB98BE83/Field/=DESCRIPTION/Order/@EntryValue">1</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=52529B7A58C33E408104ADB972713FC5/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=52529B7A58C33E408104ADB972713FC5/Shortcut/@EntryValue">xmldoc-text-canceltoken</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=52529B7A58C33E408104ADB972713FC5/Description/@EntryValue">Cancellation token text</s:String>
