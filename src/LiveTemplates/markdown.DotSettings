@@ -1,6 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/@KeyIndexDefined">True</s:Boolean>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Shortcut/@EntryValue">badge-build</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Shortcut/@EntryValue">badge-build-appveyor</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Description/@EntryValue">Build badge (AppVeyor)</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Text/@EntryValue">[![Build status](https://ci.appveyor.com/api/projects/status/github/$USER_NAME$/$REPO_NAME$?branch=master&amp;svg=true)](https://ci.appveyor.com/project/$USER_NAME$/$REPO_NAME$/branch/master)</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Reformat/@EntryValue">True</s:Boolean>
@@ -14,6 +14,21 @@
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Field/=USER_005FNAME/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Field/=REPO_005FNAME/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=4578FC5E79D2BC40AA215CAAFD1BBB41/Field/=REPO_005FNAME/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25B887FB7E634D4B885B21BEBA8E6FAB/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25B887FB7E634D4B885B21BEBA8E6FAB/Shortcut/@EntryValue">badge-license-mit</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25B887FB7E634D4B885B21BEBA8E6FAB/Description/@EntryValue">MIT License badge</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25B887FB7E634D4B885B21BEBA8E6FAB/Text/@EntryValue">[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/$USER_NAME$/$REPO_NAME$/blob/master/LICENSE)</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25B887FB7E634D4B885B21BEBA8E6FAB/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25B887FB7E634D4B885B21BEBA8E6FAB/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25B887FB7E634D4B885B21BEBA8E6FAB/Categories/=Markdown/@EntryIndexedValue">Markdown</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25B887FB7E634D4B885B21BEBA8E6FAB/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25B887FB7E634D4B885B21BEBA8E6FAB/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25B887FB7E634D4B885B21BEBA8E6FAB/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25B887FB7E634D4B885B21BEBA8E6FAB/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.md</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25B887FB7E634D4B885B21BEBA8E6FAB/Field/=USER_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25B887FB7E634D4B885B21BEBA8E6FAB/Field/=USER_005FNAME/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25B887FB7E634D4B885B21BEBA8E6FAB/Field/=REPO_005FNAME/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=25B887FB7E634D4B885B21BEBA8E6FAB/Field/=REPO_005FNAME/Order/@EntryValue">1</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Shortcut/@EntryValue">badge-nuget</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=35A7905819FA1B458F656B0FF0452DF0/Description/@EntryValue">Nuget Badge (Shields IO)</s:String>
@@ -30,7 +45,7 @@
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7DFC6113954C1345A16214060E8563FD/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7DFC6113954C1345A16214060E8563FD/Shortcut/@EntryValue">code-block</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7DFC6113954C1345A16214060E8563FD/Description/@EntryValue">Code block</s:String>
-	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7DFC6113954C1345A16214060E8563FD/Text/@EntryValue">```&#xD;
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7DFC6113954C1345A16214060E8563FD/Text/@EntryValue">```$LANGUAGE$&#xD;
 $END$&#xD;
 ```</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7DFC6113954C1345A16214060E8563FD/Reformat/@EntryValue">True</s:Boolean>
@@ -40,6 +55,8 @@ $END$&#xD;
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7DFC6113954C1345A16214060E8563FD/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7DFC6113954C1345A16214060E8563FD/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7DFC6113954C1345A16214060E8563FD/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.md</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7DFC6113954C1345A16214060E8563FD/Field/=LANGUAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=7DFC6113954C1345A16214060E8563FD/Field/=LANGUAGE/Order/@EntryValue">0</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C145878B54D6EB4582166F1AD920A4D3/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C145878B54D6EB4582166F1AD920A4D3/Shortcut/@EntryValue">code-inline</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=C145878B54D6EB4582166F1AD920A4D3/Description/@EntryValue">Code inline</s:String>
@@ -241,6 +258,49 @@ $END$</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=85BF009DF67621449FE693527746FAC8/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.md</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=85BF009DF67621449FE693527746FAC8/Field/=QUOTE/@KeyIndexDefined">True</s:Boolean>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=85BF009DF67621449FE693527746FAC8/Field/=QUOTE/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Shortcut/@EntryValue">release-note-record</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Description/@EntryValue">Create a record for RELEASE-NOTES.md</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Text/@EntryValue">## $MAJOR$.$MINOR$.$PATCH$ - $DATE$&#xD;
+&#xD;
+Breaking changes:&#xD;
+- $BREAKING_CHANGES$&#xD;
+&#xD;
+New features:&#xD;
+- $NEW_FEATURES$&#xD;
+&#xD;
+Bug fixes:&#xD;
+- $BUG_FIXES$</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Reformat/@EntryValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Categories/=Imported_002005_002F02_002F2020/@EntryIndexedValue">Imported 05/02/2020</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Categories/=Markdown/@EntryIndexedValue">Markdown</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Applicability/=Live/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Scope/=CF7C2F2066E462418ABD91975B64021C/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Scope/=CF7C2F2066E462418ABD91975B64021C/Type/@EntryValue">InFileWithMask</s:String>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Scope/=CF7C2F2066E462418ABD91975B64021C/CustomProperties/=mask/@EntryIndexedValue">*.md</s:String>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=MAJOR/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=MAJOR/Expression/@EntryValue">constant("1")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=MAJOR/Order/@EntryValue">0</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=MINOR/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=MINOR/Expression/@EntryValue">constant("0")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=MINOR/Order/@EntryValue">1</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=PATCH/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=PATCH/Expression/@EntryValue">constant("0")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=PATCH/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=DATE/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=DATE/Expression/@EntryValue">getCurrentDate("dd MMMM yyyy")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=DATE/InitialRange/@EntryValue">-1</s:Int64>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=DATE/Order/@EntryValue">3</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=BREAKING_005FCHANGES/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=BREAKING_005FCHANGES/Expression/@EntryValue">constant("(None)")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=BREAKING_005FCHANGES/Order/@EntryValue">4</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=NEW_005FFEATURES/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=NEW_005FFEATURES/Expression/@EntryValue">constant("(None)")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=NEW_005FFEATURES/Order/@EntryValue">5</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=BUG_005FFIXES/@KeyIndexDefined">True</s:Boolean>
+	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=BUG_005FFIXES/Expression/@EntryValue">constant("(None)")</s:String>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Field/=BUG_005FFIXES/Order/@EntryValue">6</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADE0E25AD2FE184A855EC0334747100A/@KeyIndexDefined">True</s:Boolean>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADE0E25AD2FE184A855EC0334747100A/Shortcut/@EntryValue">tr-2td</s:String>
 	<s:String x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=ADE0E25AD2FE184A855EC0334747100A/Description/@EntryValue">Table Row 2 Columns</s:String>
