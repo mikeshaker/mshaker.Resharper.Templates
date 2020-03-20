@@ -10,7 +10,7 @@ Breaking changes:&#xD;
 New features:&#xD;
 - $NEW_FEATURES$&#xD;
 &#xD;
-Bug fixes:&#xD;
+Bug fixes / internal changes:&#xD;
 - $BUG_FIXES$</s:String>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/Reformat/@EntryValue">True</s:Boolean>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=1F5D762552334348BB78A324B40FD46C/ShortenQualifiedReferences/@EntryValue">True</s:Boolean>
