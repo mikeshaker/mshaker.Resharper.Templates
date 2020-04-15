@@ -15,7 +15,7 @@ namespace $NAME_SPACE$&#xD;
 		/// &lt;summary&gt;&#xD;
         /// Initializes a new instance of the &lt;see cref="T:$NAME_SPACE$.$CLASS_NAME$" /&gt; class.&#xD;
         /// &lt;/summary&gt;&#xD;
-        public $CLASS_NAME$()&#xD;
+        public $CLASS_NAME$() : base("$DEFAULT_MESSAGE$")&#xD;
         {&#xD;
         }&#xD;
 				&#xD;
@@ -65,4 +65,6 @@ namespace $NAME_SPACE$&#xD;
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=CLASS_005FNAME/InitialRange/@EntryValue">-1</s:Int64>
 	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=CLASS_005FNAME/Order/@EntryValue">1</s:Int64>
 	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=SUMMARY_005FDESCRIPTION/@KeyIndexDefined">True</s:Boolean>
-	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=SUMMARY_005FDESCRIPTION/Order/@EntryValue">2</s:Int64></wpf:ResourceDictionary>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=SUMMARY_005FDESCRIPTION/Order/@EntryValue">2</s:Int64>
+	<s:Boolean x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=DEFAULT_005FMESSAGE/@KeyIndexDefined">True</s:Boolean>
+	<s:Int64 x:Key="/Default/PatternsAndTemplates/LiveTemplates/Template/=9AF29A86DD9E8F4EB9AD2C4C7581EF66/Field/=DEFAULT_005FMESSAGE/Order/@EntryValue">3</s:Int64></wpf:ResourceDictionary>
