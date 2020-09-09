@@ -1,4 +1,4 @@
-# ByteDev.Resharper.Templates
+# MShaker.Resharper.Templates
 
 Collection of Resharper Templates (Live Templates and File Templates) to help when writing (mainly C#) code.
 
@@ -6,7 +6,7 @@ Collection of Resharper Templates (Live Templates and File Templates) to help wh
 
 Get the Git repo by typing the following into Git Bash:
 
-`git clone https://bytedev@bitbucket.org/bytedev/bytedev.resharper.templates.git`
+`git clone https://github.com/mikeshaker/mshaker.Resharper.Templates.git`
 
 To import a .DotSettings templates file into Resharper:
 
