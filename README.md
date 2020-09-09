@@ -1,7 +1,7 @@
 # MShaker.Resharper.Templates
 
 Collection of Resharper Templates (Live Templates and File Templates) to help when writing (mainly C#) code.
-
+Forked from https://github.com/ByteDev/ByteDev.Resharper.Templates
 ## Installation
 
 Get the Git repo by typing the following into Git Bash:
